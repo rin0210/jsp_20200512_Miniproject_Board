@@ -25,6 +25,7 @@ public class list extends HttpServlet {
 	 */
 	public list() {
 		super();
+		
 		// TODO Auto-generated constructor stub
 	}
 

@@ -117,8 +117,6 @@ input[type=button] {
 </head>
 
 <body>
-
-	<script type="text/javascript" src="alert.js"></script>
 	<header> </header>
 	<nav>
 		<span>GUEST&emsp;</span> <span><a href="login_form.jsp">LOGIN</a>&emsp;</span>
@@ -158,5 +156,6 @@ input[type=button] {
 			</div>
 		</form>
 	</section>
+	<script type="text/javascript" src="alert.js"></script>
 </body>
 </html>

@@ -120,7 +120,6 @@ input[type=submit], [type=button] {
 </head>
 
 <body>
-<script type="text/javascript" src="alert.js"></script>
 	<header>
 		<h1></h1>
 	</header>
@@ -181,5 +180,6 @@ input[type=submit], [type=button] {
 			</form>
 		</div>
 	</section>
+	<script type="text/javascript" src="alert.js"></script>
 </body>
 </html>

@@ -100,7 +100,6 @@ input[type=text], [type=password] {
 </head>
 
 <body>
-	<script type="text/javascript" src="alert.js"></script>
 	<header>
 		<h1></h1>
 	</header>
@@ -141,10 +140,10 @@ input[type=text], [type=password] {
 				<div>
 					<span><input type="submit" value="LOGIN"
 						onclick="return loginCheck()"></span>
-
 				</div>
 			</form>
 		</div>
 	</section>
+	<script type="text/javascript" src="alert.js"></script>
 </body>
 </html>

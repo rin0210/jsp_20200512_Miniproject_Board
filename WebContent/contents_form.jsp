@@ -5,122 +5,128 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Document</title>
-<style>
-* {
-	/* font-family: Libre Baskerville,Arial,malgun gothic,"맑은고딕",NanumGothic,Apple SD Gothic Neo,dotum,"돋움",sans-serif; */
-	font-family: arial, "돋움";
-	color: black;
-	text-decoration: none;
-	margin: 0 auto;
-}
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		* {
+			/* font-family: Libre Baskerville,Arial,malgun gothic,"맑은고딕",NanumGothic,Apple SD Gothic Neo,dotum,"돋움",sans-serif; */
+			font-family: arial, "돋움";
+			color: black;
+			text-decoration: none;
+			margin: 0 auto;
+		}
 
-a:hover {
-	/* 마우스를 올려놨을 때 */
-	color: gray;
-}
+		a:hover {
+			/* 마우스를 올려놨을 때 */
+			color: gray;
+		}
 
-body {
-	min-width: 1250px;
-}
+		body {
+			min-width: 1250px;
+		}
 
-section {
-	width: 1050px;
-}
+		section {
+			width: 1050px;
+		}
 
-header {
-	height: 20px;
-	line-height: 80px;
-	padding: 15px 100px;
-	color: white;
-	background-color: rgb(238, 236, 225);
-}
+		header {
+			height: 20px;
+			line-height: 80px;
+			padding: 15px 100px;
+			color: white;
+			background-color: rgb(238, 236, 225);
+		}
 
-nav {
-	float: right;
-	font-size: 10pt;
-}
+		nav {
+			float: right;
+			font-size: 10pt;
+		}
 
-#head {
-	display: inline-block;
-	margin: 100px 0 0 225px;
-	font-size: 9pt;
-	letter-spacing: 1px;
-}
+		#head {
+			display: inline-block;
+			margin: 100px 0 0 225px;
+			font-size: 9pt;
+			letter-spacing: 1px;
+		}
 
-table {
-	margin-top: 15px;
-	text-align: center;
-	width: 400px;
-	background-color: rgb(238, 236, 225);
-	padding: 0px;
-	border: 1px #ababab solid;
-	border-collapse: collapse;
-	border-spacing: 1px;
-}
+		table {
+			margin-top: 15px;
+			text-align: center;
+			width: 400px;
+			background-color: rgb(238, 236, 225);
+			padding: 0px;
+			border: 1px #ababab solid;
+			border-collapse: collapse;
+			border-spacing: 1px;
+		}
 
-tr {
-	height: 40px;
-	/* background-color: rgb(238, 236, 225); */
-}
+		tr {
+			height: 40px;
+			/* background-color: rgb(238, 236, 225); */
+		}
 
-.formTxt {
-	padding: 20px;
-	font-size: 9pt;
-}
+		.formTxt {
+			padding: 20px;
+			font-size: 9pt;
+		}
 
-.formEle {
-	padding-left: 10px;
-	text-align: left;
-}
+		.formEle {
+			padding-left: 10px;
+			text-align: left;
+		}
 
-.formEle_option {
-	border: 1px solid #d5d5d5;
-	height: 30px;
-}
+		.formEle_option {
+			border: 1px solid #d5d5d5;
+			height: 30px;
+		}
 
-input[type=text], [type=password] {
-	height: 30px;
-	line-height: 22px;
-	padding: 2px 4px;
-	border: 1px solid #d5d5d5;
-	font-size: 10pt;
-}
+		input[type=text],
+		[type=password] {
+			height: 30px;
+			line-height: 22px;
+			padding: 2px 4px;
+			border: 1px solid #d5d5d5;
+			font-size: 10pt;
+		}
 
-textarea {
-	border: 1px solid #d5d5d5;
-	margin: 10px 10px 10px 0;
-	resize: none;
-}
+		textarea {
+			border: 1px solid #d5d5d5;
+			margin: 10px 10px 10px 0;
+			resize: none;
+		}
 
-.btn_area {
-	float: right;
-	margin: 2% 222px 0 0;
-}
+		.btn1_area {
+			float: right;
+			margin: 2% 222px 0 0;
+		}
 
-input[type=submit], [type=button] {
-	font-size: 9pt;
-	letter-spacing: 1px;
-	width: 140px;
-	height: 40px;
-	line-height: 32px;
-	margin-left: 10px;
-	display: inline-block;
-	padding: 0px;
-	background: rgb(238, 236, 225);
-	border: 1px solid #ababab;
-	border-radius: 2px;
-	text-transform: uppercase;
-	text-align: center;
-}
-</style>
+		.btn2_area {
+			float: left;
+			margin: 2% 0 0 212px;
+		}
+
+		input[type=submit],
+		[type=button] {
+			font-size: 9pt;
+			letter-spacing: 1px;
+			width: 140px;
+			height: 40px;
+			line-height: 32px;
+			margin-left: 10px;
+			display: inline-block;
+			padding: 0px;
+			background: rgb(238, 236, 225);
+			border: 1px solid #ababab;
+			border-radius: 2px;
+			text-transform: uppercase;
+			text-align: center;
+		}
+	</style>
 </head>
 
 <body>
-
 	<header>
 		<h1></h1>
 	</header>
@@ -135,12 +141,11 @@ input[type=submit], [type=button] {
 			<span><a href="logout">LOGOUT</a>&emsp;</span>
 		</c:if>
 
-		<span><a href="join_form.jsp">JOIN</a>&emsp;</span> <span><a
-			href="list">Q&A</a>&emsp;</span>
+		<span><a href="join_form.jsp">JOIN</a>&emsp;</span> <span><a href="list">Q&A</a>&emsp;</span>
 	</nav>
 	<section>
 		<div class="mainP">
-			<form method=post>
+			<form method=post name="ContentForm">
 
 				<div>
 					<span id="head">CONTENT</span>
@@ -149,40 +154,38 @@ input[type=submit], [type=button] {
 
 					<tr>
 						<td class="formTxt" width=100><span>제목</span></td>
-						<td class="formEle" colspan=4><input type="text" size="10"
-							name="isubject" readonly="readonly" value="${content.title }"></td>
-
+						<td class="formEle" colspan=4><input type="text" size="10" name="isubject" readonly="readonly"
+								value="${content.title }"></td>
 					</tr>
 					<tr>
 						<td class="formTxt" width=100><span>이름</span></td>
-						<td class="formEle" colspan=3><input type="text" size="20"
-							name="iname" maxlength="8" readonly="readonly"
-							value="${content.name }"></td>
+						<td class="formEle" colspan=3><input type="text" size="20" name="iname" maxlength="8"
+								readonly="readonly" value="${content.name }"></td>
 					</tr>
 					<tr>
-						<td colspan="2" class="formEle"><textarea name="ibody"
-								readonly="readonly" cols="80" rows="19">${content.text }</textarea></td>
+						<td colspan="2" class="formEle"><textarea name="ibody" readonly="readonly" cols="80"
+								rows="19">${content.text }</textarea></td>
 					</tr>
 					<tr>
 						<td class="formTxt" width=100><span>비밀번호</span></td>
-						<td class="formEle" colspan=3><input type="password"
-							size="20" name="ipwd" maxlength="8"></td>
+						<td class="formEle" colspan=3><input type="password" size="20" name="ipwd" maxlength="8"></td>
 					</tr>
-
 				</table>
-				<div class="btn_area">
-					<span class="btn1"> <input type="submit" value="MODIFY"
-						onclick="javascript: form.action='modify?num=${content.num }/mod';">
-					</span> <span class="btn1"> <input type="submit" value="DELETE"
-						onclick="javascript: form.action='delete?num=${content.num }';"></span>
-
-					<span class="btn1"> <a href="list"><input type="button"
-							value="LIST"></a>
+				<div class="btn2_area">
+					<span class="btn2"><a href="list"><input type="button" value="LIST"></a>
 					</span>
-
+				</div>
+				<div class="btn1_area">
+					<span class="btn1"> <input type="submit" value="MODIFY" onclick="return delCheck(1)"
+							formaction="modify?num=${content.num }/mod"></span>
+					<!-- <span class="btn1"> <input type="submit" value="DELETE"
+						formaction="delete?num=${content.num }"></span> -->
+					<span class="btn1"> <input type="submit" value="DELETE" onclick="return delCheck(2)"
+							formaction="delete?num=${content.num }"></span>
 				</div>
 			</form>
 		</div>
 	</section>
+	<script type=text/javascript src="alert.js"></script>
 </body>
 </html>

@@ -61,7 +61,7 @@ public class delete extends HttpServlet {
 				if (bdao.delOne(num)) {
 					view = "list";
 				}
-			} else {
+			} else { // 비밀번호 불일치
 				bdto = bdao.getOne(num);
 				view = "contents_form.jsp";
 				request.setAttribute("content", bdto);

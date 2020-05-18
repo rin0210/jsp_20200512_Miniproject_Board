@@ -54,34 +54,23 @@ public class modify extends HttpServlet {
 		if (num.indexOf("mod") > -1) { // 수정 전
 			int f = num.indexOf("/", 0);
 			num = num.substring(0, f);
-			if (bdao.pwdChk(num, pwd)) {
+			if (bdao.pwdChk(num, pwd)) { // 비밀번호 체크
 				bdto = bdao.getOne(num);
 				view = "modify_form.jsp";
 				request.setAttribute("content", bdto);
-//				request.setAttribute("num", num);
-//				request.setAttribute("title", title);
-//				request.setAttribute("name", name);
-//				request.setAttribute("text", text);
 			} else {
 				bdto = bdao.getOne(num);
 				view = "contents_form.jsp";
 				request.setAttribute("content", bdto);
 			}
 		} else { // 수정 후
-//			if ((bdao.pwdChk(num, pwd))) {
 			bdto = bdao.getOne(num);
-//				bdto.setNum(Integer.valueOf(num));
 			bdto.setText(text);
 
 			if (bdao.updateOne(bdto)) {
 				bdto = bdao.getOne(num);
 				view = "list";
 			}
-//			} else {
-//				bdto = bdao.getOne(num);
-//				view = "contents_form.jsp";
-//				request.setAttribute("content", bdto);
-//			}
 		}
 
 		RequestDispatcher dispatcher = request.getRequestDispatcher(view);

@@ -139,7 +139,7 @@ input[type=submit], [type=button] {
 	</nav>
 	<section>
 		<div class="mainP">
-			<form action="modify?num=${content.num }" method=post>
+			<form action="modify?num=${content.num }" method=post name="modForm">
 				<div>
 					<span id="head">MODIFY</span>
 				</div>
@@ -169,11 +169,12 @@ input[type=submit], [type=button] {
 				</table>
 				<div class="btn_area">
 					<span><a href="list"><input type="button" value="LIST"></a></span>
-					<span colspan=5><input type="submit" value="MODIFY">
-					</span>
+					<span colspan=5><input type="submit" value="MODIFY"
+						onclick="return modCheck()" > </span>
 				</div>
 			</form>
 		</div>
 	</section>
+	<script type="text/javascript" src="alert.js"></script>
 </body>
 </html>
