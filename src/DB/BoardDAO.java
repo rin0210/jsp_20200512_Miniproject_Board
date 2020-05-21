@@ -237,7 +237,8 @@ public class BoardDAO {
 		}
 		return false;
 	}
-
+	
+	// 글 삭제
 	public boolean delOne(String num) {
 		if (this.connect()) {
 			try {

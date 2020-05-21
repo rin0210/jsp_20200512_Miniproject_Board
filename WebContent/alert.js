@@ -92,7 +92,7 @@ function delCheck(type){
 		alert("비밀번호를 입력하세요.");
 		ContentForm.ipwd.focus();
 		return;
-	}
+	} 
 	
 	if (type==2){
 		var msg = confirm("정말로 삭제하시겠습니까?");

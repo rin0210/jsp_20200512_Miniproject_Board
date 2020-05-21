@@ -49,8 +49,6 @@ public class modify extends HttpServlet {
 		BoardDAO bdao = BoardDAO.getInstance();
 		BoardDTO bdto = null;
 
-		
-		
 		if (num.indexOf("mod") > -1) { // 수정 전
 			int f = num.indexOf("/", 0);
 			num = num.substring(0, f);
